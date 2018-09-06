@@ -12,7 +12,54 @@
 		E55D59752141431A00115DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55D59732141431A00115DD1 /* Main.storyboard */; };
 		E55D59772141431D00115DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55D59762141431D00115DD1 /* Assets.xcassets */; };
 		E55D597A2141431D00115DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55D59782141431D00115DD1 /* LaunchScreen.storyboard */; };
+		E55D598A2141480000115DD1 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59892141480000115DD1 /* IntentHandler.swift */; };
+		E55D59932141480000115DD1 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55D59922141480000115DD1 /* IntentsUI.framework */; };
+		E55D59962141480000115DD1 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59952141480000115DD1 /* IntentViewController.swift */; };
+		E55D59992141480000115DD1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55D59972141480000115DD1 /* MainInterface.storyboard */; };
+		E55D599D2141480000115DD1 /* TimeBookingIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E55D59902141480000115DD1 /* TimeBookingIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E55D59A02141480000115DD1 /* TimeBookingIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E55D59872141480000115DD1 /* TimeBookingIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E55D59A82141538300115DD1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E55D5981214144DD00115DD1 /* Intents.intentdefinition */; };
+		E55D59AB2141540700115DD1 /* TimeBookingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */; };
+		E55D59AC214156C400115DD1 /* TimeBookingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */; };
+		E55D59AD214156C500115DD1 /* TimeBookingIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */; };
+		E55D59AF214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */; };
+		E55D59B0214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */; };
+		E55D59B1214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */; };
+		E55D59B221415BEE00115DD1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E55D5981214144DD00115DD1 /* Intents.intentdefinition */; };
+		E55D59B321415BEF00115DD1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E55D5981214144DD00115DD1 /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55D599B2141480000115DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55D59642141431A00115DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55D598F2141480000115DD1;
+			remoteInfo = TimeBookingIntentsUI;
+		};
+		E55D599E2141480000115DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55D59642141431A00115DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55D59862141480000115DD1;
+			remoteInfo = TimeBookingIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E55D59A72141480000115DD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E55D599D2141480000115DD1 /* TimeBookingIntentsUI.appex in Embed App Extensions */,
+				E55D59A02141480000115DD1 /* TimeBookingIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E55D596C2141431A00115DD1 /* Origo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Origo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +69,17 @@
 		E55D59762141431D00115DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55D59792141431D00115DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E55D597B2141431E00115DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55D5981214144DD00115DD1 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		E55D59872141480000115DD1 /* TimeBookingIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeBookingIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55D59892141480000115DD1 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		E55D598B2141480000115DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55D59902141480000115DD1 /* TimeBookingIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeBookingIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55D59922141480000115DD1 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		E55D59952141480000115DD1 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		E55D59982141480000115DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E55D599A2141480000115DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeBookingIntentHandler.swift; sourceTree = "<group>"; };
+		E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserActivity+IntentData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +90,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E55D59842141480000115DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55D598D2141480000115DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55D59932141480000115DD1 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E55D59632141431A00115DD1 = {
 			isa = PBXGroup;
 			children = (
+				E55D5981214144DD00115DD1 /* Intents.intentdefinition */,
+				E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */,
+				E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */,
 				E55D596E2141431A00115DD1 /* Origo */,
+				E55D59882141480000115DD1 /* TimeBookingIntents */,
+				E55D59942141480000115DD1 /* TimeBookingIntentsUI */,
+				E55D59912141480000115DD1 /* Frameworks */,
 				E55D596D2141431A00115DD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				E55D596C2141431A00115DD1 /* Origo.app */,
+				E55D59872141480000115DD1 /* TimeBookingIntents.appex */,
+				E55D59902141480000115DD1 /* TimeBookingIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +145,33 @@
 			path = Origo;
 			sourceTree = "<group>";
 		};
+		E55D59882141480000115DD1 /* TimeBookingIntents */ = {
+			isa = PBXGroup;
+			children = (
+				E55D59892141480000115DD1 /* IntentHandler.swift */,
+				E55D598B2141480000115DD1 /* Info.plist */,
+			);
+			path = TimeBookingIntents;
+			sourceTree = "<group>";
+		};
+		E55D59912141480000115DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55D59922141480000115DD1 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55D59942141480000115DD1 /* TimeBookingIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				E55D59952141480000115DD1 /* IntentViewController.swift */,
+				E55D59972141480000115DD1 /* MainInterface.storyboard */,
+				E55D599A2141480000115DD1 /* Info.plist */,
+			);
+			path = TimeBookingIntentsUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +182,52 @@
 				E55D59682141431A00115DD1 /* Sources */,
 				E55D59692141431A00115DD1 /* Frameworks */,
 				E55D596A2141431A00115DD1 /* Resources */,
+				E55D59A72141480000115DD1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E55D599C2141480000115DD1 /* PBXTargetDependency */,
+				E55D599F2141480000115DD1 /* PBXTargetDependency */,
 			);
 			name = Origo;
 			productName = Origo;
 			productReference = E55D596C2141431A00115DD1 /* Origo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E55D59862141480000115DD1 /* TimeBookingIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55D59A42141480000115DD1 /* Build configuration list for PBXNativeTarget "TimeBookingIntents" */;
+			buildPhases = (
+				E55D59832141480000115DD1 /* Sources */,
+				E55D59842141480000115DD1 /* Frameworks */,
+				E55D59852141480000115DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeBookingIntents;
+			productName = TimeBookingIntents;
+			productReference = E55D59872141480000115DD1 /* TimeBookingIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E55D598F2141480000115DD1 /* TimeBookingIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55D59A12141480000115DD1 /* Build configuration list for PBXNativeTarget "TimeBookingIntentsUI" */;
+			buildPhases = (
+				E55D598C2141480000115DD1 /* Sources */,
+				E55D598D2141480000115DD1 /* Frameworks */,
+				E55D598E2141480000115DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeBookingIntentsUI;
+			productName = TimeBookingIntentsUI;
+			productReference = E55D59902141480000115DD1 /* TimeBookingIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +240,12 @@
 				ORGANIZATIONNAME = "Torsten Richter";
 				TargetAttributes = {
 					E55D596B2141431A00115DD1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E55D59862141480000115DD1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E55D598F2141480000115DD1 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -113,6 +264,8 @@
 			projectRoot = "";
 			targets = (
 				E55D596B2141431A00115DD1 /* Origo */,
+				E55D59862141480000115DD1 /* TimeBookingIntents */,
+				E55D598F2141480000115DD1 /* TimeBookingIntentsUI */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +281,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E55D59852141480000115DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55D598E2141480000115DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55D59992141480000115DD1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,11 +304,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55D59722141431A00115DD1 /* ViewController.swift in Sources */,
+				E55D59AB2141540700115DD1 /* TimeBookingIntentHandler.swift in Sources */,
 				E55D59702141431A00115DD1 /* AppDelegate.swift in Sources */,
+				E55D59B221415BEE00115DD1 /* Intents.intentdefinition in Sources */,
+				E55D59AF214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55D59832141480000115DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55D59AC214156C400115DD1 /* TimeBookingIntentHandler.swift in Sources */,
+				E55D59A82141538300115DD1 /* Intents.intentdefinition in Sources */,
+				E55D59B0214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
+				E55D598A2141480000115DD1 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55D598C2141480000115DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55D59AD214156C500115DD1 /* TimeBookingIntentHandler.swift in Sources */,
+				E55D59B1214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
+				E55D59B321415BEF00115DD1 /* Intents.intentdefinition in Sources */,
+				E55D59962141480000115DD1 /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E55D599C2141480000115DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55D598F2141480000115DD1 /* TimeBookingIntentsUI */;
+			targetProxy = E55D599B2141480000115DD1 /* PBXContainerItemProxy */;
+		};
+		E55D599F2141480000115DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55D59862141480000115DD1 /* TimeBookingIntents */;
+			targetProxy = E55D599E2141480000115DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E55D59732141431A00115DD1 /* Main.storyboard */ = {
@@ -157,6 +363,14 @@
 				E55D59792141431D00115DD1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E55D59972141480000115DD1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55D59982141480000115DD1 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,6 +495,7 @@
 		E55D597F2141431E00115DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S924T25EGL;
@@ -299,6 +514,7 @@
 		E55D59802141431E00115DD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S924T25EGL;
@@ -309,6 +525,82 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.torstenrichter.Origo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E55D59A22141480000115DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S924T25EGL;
+				INFOPLIST_FILE = TimeBookingIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.torstenrichter.Origo.TimeBookingIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E55D59A32141480000115DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S924T25EGL;
+				INFOPLIST_FILE = TimeBookingIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.torstenrichter.Origo.TimeBookingIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E55D59A52141480000115DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S924T25EGL;
+				INFOPLIST_FILE = TimeBookingIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.torstenrichter.Origo.TimeBookingIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E55D59A62141480000115DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S924T25EGL;
+				INFOPLIST_FILE = TimeBookingIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.torstenrichter.Origo.TimeBookingIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +623,24 @@
 			buildConfigurations = (
 				E55D597F2141431E00115DD1 /* Debug */,
 				E55D59802141431E00115DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55D59A12141480000115DD1 /* Build configuration list for PBXNativeTarget "TimeBookingIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55D59A22141480000115DD1 /* Debug */,
+				E55D59A32141480000115DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55D59A42141480000115DD1 /* Build configuration list for PBXNativeTarget "TimeBookingIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55D59A52141480000115DD1 /* Debug */,
+				E55D59A62141480000115DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
