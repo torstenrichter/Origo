@@ -27,6 +27,16 @@
 		E55D59B1214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */; };
 		E55D59B221415BEE00115DD1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E55D5981214144DD00115DD1 /* Intents.intentdefinition */; };
 		E55D59B321415BEF00115DD1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E55D5981214144DD00115DD1 /* Intents.intentdefinition */; };
+		E55D59B62141778300115DD1 /* Origo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55D59B42141778300115DD1 /* Origo.xcdatamodeld */; };
+		E55D59BA214178F300115DD1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55D59B9214178F300115DD1 /* CoreData.framework */; };
+		E55D59E1214192AD00115DD1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59E0214192AD00115DD1 /* TableViewController.swift */; };
+		E55D59E5214193AC00115DD1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59E4214193AC00115DD1 /* DataManager.swift */; };
+		E55D59E82141947700115DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D596F2141431A00115DD1 /* AppDelegate.swift */; };
+		E55D59E92141947700115DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D596F2141431A00115DD1 /* AppDelegate.swift */; };
+		E55D59EB2141A0B600115DD1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EA2141A0B600115DD1 /* TableViewCell.swift */; };
+		E55D59EF2141A46F00115DD1 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */; };
+		E55D59F02141A46F00115DD1 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */; };
+		E55D59F12141A46F00115DD1 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +90,12 @@
 		E55D599A2141480000115DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeBookingIntentHandler.swift; sourceTree = "<group>"; };
 		E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserActivity+IntentData.swift"; sourceTree = "<group>"; };
+		E55D59B52141778300115DD1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E55D59B9214178F300115DD1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E55D59E0214192AD00115DD1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E55D59E4214193AC00115DD1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E55D59EA2141A0B600115DD1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55D59BA214178F300115DD1 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +128,11 @@
 		E55D59632141431A00115DD1 = {
 			isa = PBXGroup;
 			children = (
+				E55D59EA2141A0B600115DD1 /* TableViewCell.swift */,
+				E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */,
+				E55D59E4214193AC00115DD1 /* DataManager.swift */,
+				E55D59E0214192AD00115DD1 /* TableViewController.swift */,
+				E55D59B42141778300115DD1 /* Origo.xcdatamodeld */,
 				E55D5981214144DD00115DD1 /* Intents.intentdefinition */,
 				E55D59AA2141540700115DD1 /* TimeBookingIntentHandler.swift */,
 				E55D59AE214157A000115DD1 /* NSUserActivity+IntentData.swift */,
@@ -157,6 +179,7 @@
 		E55D59912141480000115DD1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E55D59B9214178F300115DD1 /* CoreData.framework */,
 				E55D59922141480000115DD1 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
@@ -303,11 +326,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55D59EF2141A46F00115DD1 /* TableViewCell2.swift in Sources */,
 				E55D59722141431A00115DD1 /* ViewController.swift in Sources */,
+				E55D59E5214193AC00115DD1 /* DataManager.swift in Sources */,
+				E55D59E1214192AD00115DD1 /* TableViewController.swift in Sources */,
+				E55D59EB2141A0B600115DD1 /* TableViewCell.swift in Sources */,
 				E55D59AB2141540700115DD1 /* TimeBookingIntentHandler.swift in Sources */,
 				E55D59702141431A00115DD1 /* AppDelegate.swift in Sources */,
 				E55D59B221415BEE00115DD1 /* Intents.intentdefinition in Sources */,
 				E55D59AF214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
+				E55D59B62141778300115DD1 /* Origo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55D59F02141A46F00115DD1 /* TableViewCell2.swift in Sources */,
+				E55D59E82141947700115DD1 /* AppDelegate.swift in Sources */,
 				E55D59AC214156C400115DD1 /* TimeBookingIntentHandler.swift in Sources */,
 				E55D59A82141538300115DD1 /* Intents.intentdefinition in Sources */,
 				E55D59B0214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
@@ -326,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55D59F12141A46F00115DD1 /* TableViewCell2.swift in Sources */,
+				E55D59E92141947700115DD1 /* AppDelegate.swift in Sources */,
 				E55D59AD214156C500115DD1 /* TimeBookingIntentHandler.swift in Sources */,
 				E55D59B1214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
 				E55D59B321415BEF00115DD1 /* Intents.intentdefinition in Sources */,
@@ -646,6 +678,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E55D59B42141778300115DD1 /* Origo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E55D59B52141778300115DD1 /* Model.xcdatamodel */,
+			);
+			currentVersion = E55D59B52141778300115DD1 /* Model.xcdatamodel */;
+			path = Origo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E55D59642141431A00115DD1 /* Project object */;
 }

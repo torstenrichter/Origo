@@ -6,6 +6,7 @@ Intent handler for `TimeBookingIntentHandling`.
 */
 
 import UIKit
+import os.log
 
 public class TimeBookingIntentHandler: NSObject, TimeBookingIntentHandling {
 
@@ -76,6 +77,7 @@ public class TimeBookingIntentHandler: NSObject, TimeBookingIntentHandling {
         //let userActivity = NSUserActivity(activityType: NSUserActivity.orderCompleteActivityType)
         let response = TimeBookingIntentResponse(code: TimeBookingIntentResponseCode.success, userActivity: nil)
         response.property = ""
+        os_log("activity handled")
         completion(response)
     }
 }
