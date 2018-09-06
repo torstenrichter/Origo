@@ -37,6 +37,7 @@
 		E55D59EF2141A46F00115DD1 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */; };
 		E55D59F02141A46F00115DD1 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */; };
 		E55D59F12141A46F00115DD1 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */; };
+		E5EDF1B92141D7DE00AE444F /* WorkTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDF1B82141D7DE00AE444F /* WorkTimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		E55D59E4214193AC00115DD1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E55D59EA2141A0B600115DD1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E55D59EE2141A46F00115DD1 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		E5EDF1B82141D7DE00AE444F /* WorkTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				E55D596F2141431A00115DD1 /* AppDelegate.swift */,
 				E55D59712141431A00115DD1 /* ViewController.swift */,
 				E55D59732141431A00115DD1 /* Main.storyboard */,
+				E5EDF1B82141D7DE00AE444F /* WorkTimeViewController.swift */,
 				E55D59762141431D00115DD1 /* Assets.xcassets */,
 				E55D59782141431D00115DD1 /* LaunchScreen.storyboard */,
 				E55D597B2141431E00115DD1 /* Info.plist */,
@@ -332,6 +335,7 @@
 				E55D59E1214192AD00115DD1 /* TableViewController.swift in Sources */,
 				E55D59EB2141A0B600115DD1 /* TableViewCell.swift in Sources */,
 				E55D59AB2141540700115DD1 /* TimeBookingIntentHandler.swift in Sources */,
+				E5EDF1B92141D7DE00AE444F /* WorkTimeViewController.swift in Sources */,
 				E55D59702141431A00115DD1 /* AppDelegate.swift in Sources */,
 				E55D59B221415BEE00115DD1 /* Intents.intentdefinition in Sources */,
 				E55D59AF214157A000115DD1 /* NSUserActivity+IntentData.swift in Sources */,
