@@ -22,7 +22,7 @@
 			<key>INIntentDescriptionID</key>
 			<string>BmH8dV</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>3</integer>
+			<integer>5</integer>
 			<key>INIntentName</key>
 			<string>TimeBooking</string>
 			<key>INIntentParameterCombinations</key>
@@ -72,6 +72,21 @@
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>wQYq1B</string>
 				</dict>
+				<key>projectAsignmentList</key>
+				<dict>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<true/>
+					<key>INIntentParameterCombinationSubtitle</key>
+					<string></string>
+					<key>INIntentParameterCombinationSubtitleID</key>
+					<string>MiUDSR</string>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<false/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Book Project Assignments ${projectAsignmentList} for today </string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>cnubZM</string>
+				</dict>
 			</dict>
 			<key>INIntentParameters</key>
 			<array>
@@ -98,6 +113,18 @@
 					<integer>3</integer>
 					<key>INIntentParameterType</key>
 					<string>Decimal</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>3</integer>
+					<key>INIntentParameterName</key>
+					<string>projectAsignmentList</string>
+					<key>INIntentParameterSupportsMultipleValues</key>
+					<false/>
+					<key>INIntentParameterTag</key>
+					<integer>5</integer>
+					<key>INIntentParameterType</key>
+					<string>Object</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
