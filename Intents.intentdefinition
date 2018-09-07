@@ -38,7 +38,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string></string>
+					<string>Book Time</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>q4r4Ns</string>
 				</dict>
@@ -152,7 +152,7 @@
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentUserConfirmationRequired</key>
-			<false/>
+			<true/>
 			<key>INIntentVerb</key>
 			<string>Do</string>
 		</dict>
